@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+.head{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 5px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+}
+
+.searchoption{
+    display: grid;
+    grid-template-columns: 10% 85%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 2.5%;
+    height: auto;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(116, 114, 112);
+}
+
+i{
+    color: rgba(117, 121, 117, 0.815);
+}
+
+
+/*content1*/
+.content1{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 5px;
+    position: relative;
+    
+}
+
+.prev{
+    position: absolute;
+    bottom: 0.5%;
+    left: 45%;
+}
+
+.next{
+    position: absolute;
+    bottom: 0.5%;
+    left: 50%;
+}
+
+.banner1,.banner2{
+    width: 100%;
+    height: auto;
+}
+
+.banner1 img,.banner2 img{
+    width: 100%;
+    height: 100%;
+}
+
+#banner2{
+    display: none;
+}
+
+/*content2*/
+
+.content2{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 10px;
+}
+
+.item1,.item2,.item3{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items:center;
+    margin-bottom: 5px;
+}
+
+.item1 img,.item2 img, .item3 img{
+    width: 60%;
+    height: 90%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.item1 p,.item2 p, .item3 p{
+    margin-bottom: 10px;
+}
+
+/*Content3*/
+
+.content3{
+    /* margin: 5px; */
+    background-color: rgb(193, 212, 212);
+    display: flex;
+    flex-direction: column;
+}
+
+.latestprod{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.lp{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.latestprod button{
+    background-color: rgb(29, 163, 216);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 60px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.itemslist{
+    display: grid;
+    grid-template-columns: 70%;
+}
+
+.cards
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color: white;
+    margin: 5% 20%;
+    width: 100%;
+}
+
+.cards img{
+    margin: 5px 0;
+    width: 70%;
+}
+
+.i_name{
+    margin: 2px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.i_stock{
+    margin: 2px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.i_price{
+    margin: 2px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.vegsymbol{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    font-size: 16px;
+    border: 1px solid green;
+    width: 20px;
+    height: 20px;
+}
+
+.vegsymbol i{
+    color: green;
+    padding-left: 2px;
+}
+
+/*content4*/
+
+.bestoffer{
+    /* margin: 5px; */
+    background-color: rgb(193, 212, 212);
+    display: flex;
+    flex-direction: column;
+}
+
+.bestofflist{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    box-sizing: border-box;
+}
+
+.bov{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.bo{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.newbtn1{
+    background-color: rgb(29, 163, 216);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.cards1
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color: white;
+    margin: 5% 0%;
+    width: 100%;
+}
+
+.prev1{
+    position: relative;
+    top: 45%;
+    left: 18%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(218, 49, 49);
+    border-radius: 50%;
+    
+}
+
+.next1{
+    position: relative;
+    top: 45%;
+    left: 16%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(218, 49, 49);
+    border-radius: 50%;
+}
+
+
+.cards1 img{
+    margin: 5px 0;
+    width: 70%;
+}
+
+#c2,#c3,#c4{
+    display: none;
+}
+
+
+/*content5*/
+
+.content5{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    height: auto;
+    background-color:rgb(193, 212, 212);
+}
+
+.content5 div{
+    /* margin: 0 5%; */
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    /* margin-bottom: 10px; */
+    border: 1px solid white;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5%;
+}
